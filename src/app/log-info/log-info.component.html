@@ -1,0 +1,7 @@
+<div *ngIf="afAuth.isUserAnonymousLoggedIn">
+	<h5 class="text-primary">User Information</h5>
+	<h4>
+		<strong>UID:</strong> {{ afAuth.currentUserId }}
+	</h4>
+	<button class="btn btn-warning m-2" (click)="logOut()">Logout</button>
+</div>

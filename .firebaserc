@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firbasecrud-3f52b": {
+      "hosting": {
+        "Anonymous-login": [
+          "firbasecrud-3f52b"
+        ]
+      }
+    }
+  }
+}
